@@ -4,7 +4,7 @@ import User from './User';
 const Home = () => {
     const [users, setUsers] = useState([])
     useEffect(() => {
-        fetch('https://curd-ivory-nine.vercel.app/users')
+        fetch('https://test-ten-gray-39.vercel.app/users')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])

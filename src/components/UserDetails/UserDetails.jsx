@@ -20,7 +20,7 @@ const UserDetails = () => {
             education: 'HSC'
         };
 
-        fetch(`https://curd-ivory-nine.vercel.app/user/${_id}`, {
+        fetch(`https://test-ten-gray-39.vercel.app/user/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

@@ -6,7 +6,7 @@ const User = ({ user }) => {
     const handleDeleteUser = (id) => {
         const agree = window.confirm(`Are you want to delete? ${name} `)
         if (agree) {
-            fetch(`https://curd-ivory-nine.vercel.app/user/${id}`, {
+            fetch(`https://test-ten-gray-39.vercel.app/user/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

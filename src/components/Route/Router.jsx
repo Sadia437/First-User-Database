@@ -21,8 +21,8 @@ const router = createBrowserRouter([
             {
                 path: '/user-details/:id',
                 element: <UserDetails />,
-                // loader:()=>{fetch('https://curd-ivory-nine.vercel.app//')}
-                loader: ({ params }) => fetch(`https://curd-ivory-nine.vercel.app/users/${params.id}`)
+                // loader:()=>{fetch('https://test-ten-gray-39.vercel.app//')}
+                loader: ({ params }) => fetch(`https://test-ten-gray-39.vercel.app/users/${params.id}`)
             },
             {
                 path: '/user',

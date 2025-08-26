@@ -13,7 +13,7 @@ const AddUsers = () => {
             email,
             age
         }
-        fetch('https://curd-ivory-nine.vercel.app/users', {
+        fetch('https://test-ten-gray-39.vercel.app/users', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
